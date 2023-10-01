@@ -1,0 +1,36 @@
+:root {
+    --iris: #4d5ae5;
+    --navyblue: #2e2f42;
+    --ocean: #404bbf;
+    --white: #fff;
+    --slate: #434455;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.bg-dark {
+    background-color: var(--navyblue);
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family: "Raleway";
+    font-weight: 800;
+}
+
+.logo-web {
+    color: var(--iris);
+}
+
+.link {
+    text-decoration: none;
+}
